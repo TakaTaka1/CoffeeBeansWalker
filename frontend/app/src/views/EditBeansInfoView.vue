@@ -35,15 +35,12 @@
     </b-container>    
 </template>
 
-<script>    
-  
+<script>
   export default {      
       // Registerしたら、登録した店舗のページへ遷移する
       // その時、RegisterボタンはEditに変更する
       // 削除ボタンもつけておく
-    
-    data() {              
-        // console.log(beans_amount)
+    data() {
       return {
         isDisabled : true,
         btn_label : 'Edit', 

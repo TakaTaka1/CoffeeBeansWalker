@@ -9,6 +9,6 @@
             </div>
         </div>
     </div> -->
-    shopListView
-    テストデータから、登録した店舗の一覧を表示する
+    <!-- shopListView
+    テストデータから、登録した店舗の一覧を表示する -->
 </template>

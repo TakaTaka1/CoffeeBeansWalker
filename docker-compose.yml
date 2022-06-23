@@ -9,3 +9,11 @@ services:
       - ./frontend/app:/src
     stdin_open: true
     tty: true
+  backend: 
+    build: ./docker/backend
+    container_name: goapp
+    tty: true
+    ports:
+      - "8100:3000"
+    volumes:
+      - ./backend/app:/go/src/goapp

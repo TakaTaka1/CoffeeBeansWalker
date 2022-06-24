@@ -17,5 +17,4 @@ RUN go get -u github.com/gin-gonic/gin
 
 EXPOSE 18000    
 
-
-CMD ["realize", "start"]
+CMD ["realize", "start", "--build","--run"]
